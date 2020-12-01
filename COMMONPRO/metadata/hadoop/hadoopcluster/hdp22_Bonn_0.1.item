@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendHadoopCluster:HadoopClusterConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHadoopCluster="http://www.talend.org/hadoopcluster" xmi:id="_9xXCsOPiEeShYK4lBGj9lg" name="hdp22_Bonn" label="hdp22_Bonn" distribution="HORTONWORKS" dfVersion="HDP_2_2" useYarn="true" nameNodeURI="hdfs://tal-qa139.talend.lan:8020" jobTrackerURI="tal-qa139.talend.lan:8050" principal="nn/_HOST@EXAMPLE.COM" jtOrRmPrincipal="yarn/_HOST@EXAMPLE.COM" jobHistoryPrincipal="mapred/_HOST@EXAMPLE.COM" userName="automation" group="" authMode="USERNAME" rmScheduler="tal-qa139.talend.lan:8030" jobHistory="tal-qa139.talend.lan:10020" stagingDirectory="/user">
+  <connectionList>_I7uCUOPjEeShYK4lBGj9lg</connectionList>
+  <connectionList>_TZkjoOQXEeSIBcrjD3LKTw</connectionList>
+  <connectionList>_Uk1c4OQXEeSIBcrjD3LKTw</connectionList>
+  <connectionList>_GKnVUCk_EeW1OI05Ev3Pag</connectionList>
+</TalendHadoopCluster:HadoopClusterConnection>

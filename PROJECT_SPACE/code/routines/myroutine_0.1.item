@@ -1,0 +1,12 @@
+package routines;
+
+import org.talend.test.*;
+
+public class myroutine {
+
+ 
+    public static void getName1() {
+        Example e=new Example();
+        e.helloExample();
+    }
+}

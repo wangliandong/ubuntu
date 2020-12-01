@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:SAPConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_RaGXAKrDEeSBvu2YAlDtDA" Host="a" Username="a" Password="hrOw8dqrp2E=" Client="a" SystemNumber="a" Language="a" jcoVersion="SAP2">
+  <additionalProperties xmi:id="_Fwwf4KrEEeSBvu2YAlDtDA" propertyName="a" Value="a"/>
+</TalendMetadata:SAPConnection>

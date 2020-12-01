@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_6F82QHtVEeelF5nuSn7tcA" defaultContext="Default">
+  <context xmi:id="_6F82QXtVEeelF5nuSn7tcA" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_6F82QntVEeelF5nuSn7tcA">
+    <elementParameter xmi:id="_6F82Q3tVEeelF5nuSn7tcA" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_6F82RHtVEeelF5nuSn7tcA" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_6F82RXtVEeelF5nuSn7tcA" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_6F82RntVEeelF5nuSn7tcA" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_6F82R3tVEeelF5nuSn7tcA" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_6F82SHtVEeelF5nuSn7tcA" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_6F82SXtVEeelF5nuSn7tcA" field="TEXT" name="HADOOP_APP_PATH" value=""/>
+    <elementParameter xmi:id="_6F82SntVEeelF5nuSn7tcA" field="TEXT" name="JOBID_FOR_OOZIE" value=""/>
+    <elementParameter xmi:id="_6F82S3tVEeelF5nuSn7tcA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <elementParameter xmi:id="_6F82THtVEeelF5nuSn7tcA" field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <routinesParameter xmi:id="_6F82TXtVEeelF5nuSn7tcA" id="_RuwFUL-HEeO-CMIHh6L-qg" name="DQTechnical"/>
+    <routinesParameter xmi:id="_6F82TntVEeelF5nuSn7tcA" id="_RVhF8L-HEeO-CMIHh6L-qg" name="DataOperation"/>
+    <routinesParameter xmi:id="_6F82T3tVEeelF5nuSn7tcA" id="_Rtb2sL-HEeO-CMIHh6L-qg" name="DataQuality"/>
+    <routinesParameter xmi:id="_6F82UHtVEeelF5nuSn7tcA" id="_Rt_3YL-HEeO-CMIHh6L-qg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_6F82UXtVEeelF5nuSn7tcA" id="_RtFRYL-HEeO-CMIHh6L-qg" name="MDM"/>
+    <routinesParameter xmi:id="_6F82UntVEeelF5nuSn7tcA" id="_Rp-TAL-HEeO-CMIHh6L-qg" name="Mathematical"/>
+    <routinesParameter xmi:id="_6F82U3tVEeelF5nuSn7tcA" id="_RqaX4L-HEeO-CMIHh6L-qg" name="Numeric"/>
+    <routinesParameter xmi:id="_6F82VHtVEeelF5nuSn7tcA" id="_Rqt54L-HEeO-CMIHh6L-qg" name="Relational"/>
+    <routinesParameter xmi:id="_6F82VXtVEeelF5nuSn7tcA" id="_RsKrYL-HEeO-CMIHh6L-qg" name="SQLike"/>
+    <routinesParameter xmi:id="_6F82VntVEeelF5nuSn7tcA" id="_Rq9xgL-HEeO-CMIHh6L-qg" name="StringHandling"/>
+    <routinesParameter xmi:id="_6F82V3tVEeelF5nuSn7tcA" id="_RrPeUL-HEeO-CMIHh6L-qg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_6F82WHtVEeelF5nuSn7tcA" id="_Rreu4L-HEeO-CMIHh6L-qg" name="TalendDate"/>
+    <routinesParameter xmi:id="_6F82WXtVEeelF5nuSn7tcA" id="_Rr5loL-HEeO-CMIHh6L-qg" name="TalendString"/>
+    <routinesParameter xmi:id="_6F82WntVEeelF5nuSn7tcA" id="_-6JdML-OEeO-CMIHh6L-qg" name="myroutine"/>
+  </parameters>
+  <node xmi:id="_6F82W3tVEeelF5nuSn7tcA" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
+    <elementParameter xmi:id="_6F82XHtVEeelF5nuSn7tcA" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1"/>
+    <elementParameter xmi:id="_6F82XXtVEeelF5nuSn7tcA" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_6F82XntVEeelF5nuSn7tcA" field="TEXT" name="URI" value="&quot;file://D:/111/412.txt?noop=true&quot;"/>
+    <elementParameter xmi:id="_6F82X3tVEeelF5nuSn7tcA" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_6F82YHtVEeelF5nuSn7tcA" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_6F82YXtVEeelF5nuSn7tcA" field="MODULE_LIST" name="LIBRARY" value=""/>
+    <elementParameter xmi:id="_6F82YntVEeelF5nuSn7tcA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6F82Y3tVEeelF5nuSn7tcA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_6F82ZHtVEeelF5nuSn7tcA" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_6F82ZXtVEeelF5nuSn7tcA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_6F82ZntVEeelF5nuSn7tcA" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="160">
+    <elementParameter xmi:id="_6F82Z3tVEeelF5nuSn7tcA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_6F82aHtVEeelF5nuSn7tcA" field="CHECK" name="SUBTREE_START" value="true"/>
+    <elementParameter xmi:id="_6F82aXtVEeelF5nuSn7tcA" field="CHECK" name="END_OF_FLOW" value="true"/>
+    <elementParameter xmi:id="_6F82antVEeelF5nuSn7tcA" field="MEMO_IMPORT" name="IMPORT" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;//import java.util.List;"/>
+    <elementParameter xmi:id="_6F82a3tVEeelF5nuSn7tcA" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*/&#xA;System.out.println(&quot;run the route!&quot;);"/>
+    <elementParameter xmi:id="_6F82bHtVEeelF5nuSn7tcA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_6F82bXtVEeelF5nuSn7tcA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_6F82bntVEeelF5nuSn7tcA" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_6F82b3tVEeelF5nuSn7tcA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <connection xmi:id="_6F82cHtVEeelF5nuSn7tcA" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cMessagingEndpoint_1" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_1" target="cProcessor_1">
+    <elementParameter xmi:id="_6F82cXtVEeelF5nuSn7tcA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_6F82cntVEeelF5nuSn7tcA" field="TEXT" name="UNIQUE_NAME" value="route1"/>
+    <elementParameter xmi:id="_6F82c3tVEeelF5nuSn7tcA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_6F82dHtVEeelF5nuSn7tcA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_6F82dXtVEeelF5nuSn7tcA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_6F82dntVEeelF5nuSn7tcA">
+    <elementParameter xmi:id="_6F82d3tVEeelF5nuSn7tcA" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1"/>
+    <elementParameter xmi:id="_6F82eHtVEeelF5nuSn7tcA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_6F82eXtVEeelF5nuSn7tcA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_6F82entVEeelF5nuSn7tcA">
+    <elementParameter xmi:id="_6F82e3tVEeelF5nuSn7tcA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1"/>
+    <elementParameter xmi:id="_6F82fHtVEeelF5nuSn7tcA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_6F82fXtVEeelF5nuSn7tcA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

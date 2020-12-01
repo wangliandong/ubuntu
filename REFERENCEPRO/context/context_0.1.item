@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="age" prompt="age?" promptNeeded="false" type="id_Integer" value="23"/>
+    <contextParameter comment="" name="birth" prompt="birth?" promptNeeded="false" type="id_String" value="yyyy-MM-dd HH:mm:ss;1988-08-13 00:00:00"/>
+    <contextParameter comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="JackZhang"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ff">
+    <contextParameter comment="" name="age" prompt="age?" promptNeeded="false" type="id_Integer" value="21"/>
+    <contextParameter comment="" name="birth" prompt="birth?" promptNeeded="false" type="id_String" value="rrrr"/>
+    <contextParameter comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="JackZhang"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="nn">
+    <contextParameter comment="" name="age" prompt="age?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="birth" prompt="birth?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="oneValueSetted">
+    <contextParameter comment="" name="age" prompt="age?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="" name="birth" prompt="birth?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="JackZhang"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_bLyt4L-PEeO-CMIHh6L-qg" name="oracle" id="_VthuYL-PEeO-CMIHh6L-qg" label="oracle" dataPackage="_hM5-UCk8EeW9tqfNsN1i4w" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@192.168.30.163:1521:tac" dbVersionString="ORACLE_11" Port="1521" Username="amc" Password="LuwZG+r7dV8=" ServerName="192.168.30.163" DatasourceName="" FileFieldName="" SID="tac" SqlSynthax="SQL Syntax" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="AMC">
+    <taggedValue xmi:id="_bLzU8L-PEeO-CMIHh6L-qg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_bMn0UL-PEeO-CMIHh6L-qg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_bN2jYL-PEeO-CMIHh6L-qg" tag="Status" value=""/>
+    <taggedValue xmi:id="_bN2jYb-PEeO-CMIHh6L-qg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_bN3KcL-PEeO-CMIHh6L-qg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_bN3Kcb-PEeO-CMIHh6L-qg" tag="Description" value=""/>
+    <taggedValue xmi:id="_bN3Kcr-PEeO-CMIHh6L-qg" tag="Author" value=""/>
+    <taggedValue xmi:id="_bN3Kc7-PEeO-CMIHh6L-qg" tag="otherParameter"/>
+    <taggedValue xmi:id="_bOhRwL-PEeO-CMIHh6L-qg" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_bOhRwb-PEeO-CMIHh6L-qg" tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production&#xA;With the Partitioning, OLAP, Data Mining and Real Application Testing options"/>
+    <taggedValue xmi:id="_bOhRwr-PEeO-CMIHh6L-qg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_bLzU8b-PEeO-CMIHh6L-qg" key="CONN_PARA_KEY_USERNAME" value="amc"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_hM5-UCk8EeW9tqfNsN1i4w" name="AMC" dataManager="_bLyt4L-PEeO-CMIHh6L-qg"/>
+</xmi:XMI>

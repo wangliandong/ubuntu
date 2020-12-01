@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendHadoopCluster:HadoopClusterConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHadoopCluster="http://www.talend.org/hadoopcluster" xmi:id="_xkfQwCk8EeW1OI05Ev3Pag" name="cdh51" label="cdh51" distribution="CLOUDERA" dfVersion="Cloudera_CDH5_1" useYarn="true" nameNodeURI="hdfs://tal-qa101.talend.lan:8020" jobTrackerURI="tal-qa101.talend.lan:8032" principal="hdfs/_HOST@EXAMPLE.COM" jtOrRmPrincipal="yarn/_HOST@EXAMPLE.COM" jobHistoryPrincipal="mapred/_HOST@EXAMPLE.COM" userName="automation" group="" authMode="USERNAME" rmScheduler="tal-qa101.talend.lan:8030" jobHistory="tal-qa101.talend.lan:10020" stagingDirectory="/user">
+  <connectionList>_0kihYCk8EeW1OI05Ev3Pag</connectionList>
+</TalendHadoopCluster:HadoopClusterConnection>
